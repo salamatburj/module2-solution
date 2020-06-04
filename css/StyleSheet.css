@@ -1,20 +1,44 @@
 .style {
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+	margin: 0;
+	padding: 0;
+	
+}
+*{
+	box-sizing: border-box;
+}
+a {
+    word-wrap: break-word;
+}
 h1 {
 	color:green;
+	margin-bottom: 30px;
 }
+article{
+	float: left;
+} 
+
+
 .work {
-	color: blue;
+	background-color: #A52A2A
 }
 .competition{
-	color: green;
+	background-color: #DEB887;
 }
 .education {
-	color: red;
+	background-color: #5F9EA0;
+	
+
+}
+.skills {
+	color: gray;
+	clear: left;
 }
 .courses {
-	color: magenta;
+	background-color: #FF7F50;
 }
 .center {
   display: block;
@@ -22,13 +46,17 @@ h1 {
   margin-right: auto;
 }
 
+article  li {
+	font-style: italic;
+}
+
 #box {
-	background-color: blue;
 	padding: 10px;
 	border: 5px solid black;
-	width: 300px;
-	margin-top: 50px;
+	margin: 10px;
+	width: 400px;
+
+
 }
-.skills {
-	color: gray;
-}
+
+
